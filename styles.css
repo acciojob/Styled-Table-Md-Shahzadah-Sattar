@@ -1,1 +1,25 @@
 /* your code */
+*{
+	padding:0px;
+	margin:0px;
+}
+
+#container {
+
+	border-collapse: collapse;
+    width: 100%;
+}
+
+#container th{
+	padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #6027;
+  color: white;
+	
+}
+#container td{
+ padding-top: 12px;
+	text-align:center;
+}
+#container tr:nth-child(even){background-color: #f2f2f2;}
